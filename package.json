@@ -1,0 +1,33 @@
+{
+  "name": "demotestscript",
+  "version": "1.0.0",
+  "description": "Demo Test Script",
+  "main": "index.js",
+  "scripts": {
+    "1MDTestscript": "mocha webriverio-1MD.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhilashshettigartrt/DemoTestscript.git"
+  },
+  "author": "Abhilash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhilashshettigartrt/DemoTestscript/issues"
+  },
+  "homepage": "https://github.com/abhilashshettigartrt/DemoTestscript#readme",
+  "dependencies": {
+    "appium-uiautomator2-driver": "^1.2.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.0.1",
+    "wd": "^1.5.0"
+  },
+  "devDependencies": {
+    "wdio-appium-service": "^0.2.3",
+    "wdio-mocha-framework": "^0.5.12",
+    "webdriverio": "^4.10.2"
+  }
+ 
+}
